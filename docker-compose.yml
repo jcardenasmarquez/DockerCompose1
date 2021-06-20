@@ -6,6 +6,7 @@ services:
     image: jcardenasmarquez/repoblemapp_backend
     ports:
       - "25000:25000"
+      - "30000:30000"
     depends_on: 
       - mongo
     command: npm start
