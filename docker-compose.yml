@@ -15,7 +15,7 @@ services:
         - frontendNetwork
 
   frontend:
-    image: jcardenasmarquez/repoblemapp_frontend
+    image: jcardenasmarquez/repoblemapp_flutter
     ports:
       - "4200:80"
     depends_on: 
